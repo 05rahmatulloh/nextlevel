@@ -4,11 +4,11 @@
       <!-- Logo -->
 
       <div
-        class="items-center justify-between w-full lg:w-auto flex mx-auto px-4 lg:flex"
+        class="items-center justify-between w-full lg:w-full flex mx-auto px-4 lg:flex"
         :class="{ 'w-auto': isMenuOpen }"
       >
         <div
-          class="flex items-center justify-start lg:justify-start w-full"
+          class="flex items-center w-auto justify-start lg:justify-start "
           :class="{ 'justify-center': isMenuOpen }"
         >
           <a href="#home" class="text-2xl font-bold text-gray-800">
@@ -30,10 +30,10 @@
             'h-0 overflow-hidden': !isMenuOpen,
             'h-auto': isMenuOpen,
           }"
-          class="flex-col items-center lg:flex lg:flex-row lg:space-x-6 transition-all duration-500"
+          class="flex-col items-center lg:h-auto lg:w-[500px] w-auto  transition-all duration-500"
         >
           <ul
-            class="flex-col items-center text-center justify-center lg:flex lg:flex-row lg:space-x-6"
+            class="flex-col items-center text-center justify-center lg:flex lg:flex-row lg:space-x-2 gap-x-3  "
           >
             <li>
               <a
@@ -42,10 +42,10 @@
                 >Home</a
               >
             </li>
-            <li class="lg:w-32">
+            <li class="lg:w-40">
               <a
                 href="#about"
-                class="text-black hover:border-b-2 hover:border-slate-500 transition duration-300 text-md font-monserat"
+                class="text-black hover:border-b-2  hover:border-slate-500 transition duration-300 text-md font-monserat"
                 >Tentang Kami</a
               >
             </li>
