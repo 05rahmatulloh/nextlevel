@@ -10,7 +10,7 @@
         >
           <a href="#home" class="text-2xl font-bold text-gray-800">
             <div
-              class="w-20 h-10 bg-contain lg:w-20 lg:h-10 lg:bg-contain"
+              class="w-28 h-20 bg-contain lg:w-24 lg:h-16 lg:bg-contain"
               style="
                 background-image: url('/logo.png');
                 background-repeat: no-repeat;
@@ -60,7 +60,9 @@
               >
             </li>
             <li>
-              <a href="" class=""
+              <a
+                href="https://wa.me/6281338613704?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Anda."
+                class=""
                 ><div
                   class="text-white flex items-center justify-center m-auto bg-logo1 rounded-full text-center w-28 h-8 transition duration-300 text-md font-monserat"
                 >

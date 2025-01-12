@@ -88,7 +88,7 @@
         <div class="text-center">
           <button
             @click="klik3"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
           >
             <div
               class="float-left flex text-center justify-center items-center"

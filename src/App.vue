@@ -22,7 +22,7 @@ import terahir from "./components/footer.vue";
       href="https://wa.me/6281338613704?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Anda."
     >
       <div
-        class="w-24 h-24 lg:w-28 lg:h-28 bg-contain fixed right-2 bottom-2"
+        class="w-20 h-20 lg:w-28 lg:h-28 bg-contain fixed right-2 bottom-2"
         style="background-image: url(/wa.png); background-repeat: no-repeat"
       ></div
     ></a>
