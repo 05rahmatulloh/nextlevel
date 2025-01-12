@@ -3,25 +3,25 @@ import buttom from "./componen/buttom.vue";
 </script>
 
 <template>
-  <div class="flex flex-wrap justify-center w-screen " id="home">
+  <div class="flex flex-wrap justify-center w-full " id="home">
     <div class="w-full min-h-[600px] h-auto text-center">
       <div class="bg-bg1 min-h-[800px] h-screen w-full absolute -z-50">
         <div class="w-30 h-5 bg-slate-400 rounded-full mt-20 -rotate-45"></div>
 
-        <div class="w-20 h-10 bg-slate-400 rounded-full mt-20 -rotate-45"></div>
+        <div class="w-20 h-5 bg-slate-400 rounded-full mt-20 -rotate-45"></div>
         <div class="w-30 h-1 bg-slate-400 rounded-full mt-30 -rotate-45"></div>
         <div
-          class="w-40 h-10 bg-slate-400 rounded-full mt-20 ml-56 -rotate-45"
+          class="w-20 h-5 bg-slate-400 rounded-full mt-20 ml-56 -rotate-45"
         ></div>
         <div
           class="w-40 h-5 bg-slate-400 rounded-full mt-20 ml-20 -rotate-45"
         ></div>
         <div class="w-40 h-10 bg-slate-300 rounded-full mt-10 -rotate-45"></div>
         <div
-          class="w-560 h-6 bg-slate-300 rounded-full mt-10 ml-28 -rotate-45"
+          class="w-20 h-6 bg-slate-300 rounded-full mt-10 ml-10 -rotate-45"
         ></div>
       </div>
-      <div class="w-screen m-auto lg:px-10 max-w-[1050px] lg:h-screen">
+      <div class="w-full m-auto lg:px-10 max-w-[1050px] lg:h-screen">
         <div class="isi justify-center px-5 pt-32 flex flex-wrap md:pt-32">
           <div class="w-full pb-10 md:w-1/2">
             <h1

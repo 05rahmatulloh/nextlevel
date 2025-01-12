@@ -1,6 +1,6 @@
 <template>
   <div
-    class="nav fixed flex items-center justify-between w-screen bg-white/30 backdrop-blur-lg z-50 max-h-16"
+    class="nav fixed flex items-center justify-between w-full bg-white/30 backdrop-blur-lg z-50 max-h-16"
   >
     <!-- Logo tanpa efek blur -->
     <div class="max-w-[1050px] flex items-center justify-between w-full m-auto">

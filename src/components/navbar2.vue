@@ -3,14 +3,17 @@
     <div class="container mx-auto flex items-center justify-between px-4 py-3">
       <!-- Logo -->
 
-      <div class="items-center justify-between w-full mx-auto px-4 lg:flex">
+      <div
+        class="items-center justify-between w-full lg:w-auto flex mx-auto px-4 lg:flex"
+        :class="{ 'w-auto': isMenuOpen }"
+      >
         <div
-          class="flex items-center lg:justify-start w-full"
+          class="flex items-center justify-start lg:justify-start w-full"
           :class="{ 'justify-center': isMenuOpen }"
         >
           <a href="#home" class="text-2xl font-bold text-gray-800">
             <div
-              class="w-28 h-20 bg-contain lg:w-24 lg:h-16 lg:bg-contain"
+              class="w-20 h-10 bg-contain lg:w-24 lg:h-16 lg:bg-contain"
               style="
                 background-image: url('/logo.png');
                 background-repeat: no-repeat;
@@ -24,9 +27,10 @@
         <!-- Menu Links -->
         <div
           :class="{
-            hidden: !isMenuOpen,
+            'h-0 overflow-hidden': !isMenuOpen,
+            'h-auto': isMenuOpen,
           }"
-          class="flex-col items-center lg:flex lg:flex-row lg:space-x-6"
+          class="flex-col items-center lg:flex lg:flex-row lg:space-x-6 transition-all duration-500"
         >
           <ul
             class="flex-col items-center text-center justify-center lg:flex lg:flex-row lg:space-x-6"
