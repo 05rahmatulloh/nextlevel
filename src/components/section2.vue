@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-bg2 w-screen " id="about">
+  <div class="bg-bg2 w-screen" id="about">
     <div class="isi px-5 pb-20 lg:px-10 flex flex-wrap m-auto max-w-[1050px]">
       <div class="w-full pt-20 pb-10 text-center">
         <p class="text-4xl pb-10 text-white font-poppins">
@@ -15,7 +15,7 @@
         <div class="text-center">
           <button
             @click="klik"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
           >
             <div
               class="float-left flex text-center justify-center items-center"
@@ -41,7 +41,7 @@
 
           <div
             :class="{ 'h-0': kotak }"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 mb-5 rounded-2xl transition duration-500 text-slate-600 text-sm text-center"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 mb-5 rounded-2xl transition duration-500 text-slate-600 text-sm text-center"
           >
             <p class="p-5 font-roboto" :class="{ hidden: kotak }">
               di sini anda bisa membuat website tanpa harus ngapa ngapain
@@ -51,7 +51,7 @@
         <div class="text-center">
           <button
             @click="klik2"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto text-left bg-button_bg_2 transition-all duration-300 rounded-xl"
           >
             <div
               class="float-left flex text-center justify-center items-center"
@@ -77,7 +77,7 @@
 
           <div
             :class="{ 'h-0': kotak2 }"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 mb-5 rounded-xl transition duration-500 text-slate-600 text-sm text-center"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 mb-5 rounded-xl transition duration-500 text-slate-600 text-sm text-center"
           >
             <p class="p-5 font-roboto" :class="{ hidden: kotak2 }">
               Setiap website dari kami di rancang dengan desain yang friendly
@@ -112,7 +112,7 @@
 
           <div
             :class="{ 'h-0': kotak3 }"
-            class="w-[350px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 rounded-xl transition duration-500 text-slate-600 text-sm text-center"
+            class="w-[300px] lg:w-[400px] md:w-[300px] h-auto m-auto bg-button_bg_2 mt-5 rounded-xl transition duration-500 text-slate-600 text-sm text-center"
           >
             <p class="p-5 font-roboto" :class="{ hidden: kotak3 }">
               Layanan kami tersedia 24 jam untuk mendukung kebutuhan pemasaran
